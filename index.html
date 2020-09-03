@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+
+
+<body>
+    <section id="splash"></section>
+
+    <!--    <h1>Bistro Babushka</h1>-->
+    <h1>Menu</h1>
+    <h2 id="alle">Alle</h2>
+    <header>
+        <button class="filter" data-kategori="alle">Alle</button>
+        <button class="filter" data-kategori="forretter">Foretter</button>
+        <button class="filter" data-kategori="hovedretter">Hovedretter</button>
+        <button class="filter" data-kategori="desserter">Desserter</button>
+        <button class="filter" data-kategori="drikkevarer">Drikkevarer</button>
+        <button class="filter" data-kategori="sideorders">Sideorders</button>
+    </header>
+
+
+    <section id="popop">
+        <article class="popop_article">
+            <img class="billede" src="" alt="">
+            <div id="luk">X</div>
+            <div class="popop_margin">
+                <h2 class="ret"> </h2>
+                <p>Oprindelse: <span class="oprindelse"></span></p>
+                <p>Beskrivelse: <span class="lang_beskrivelse"></span></p>
+                <p>Pris: <span class="pris"></span></p>
+            </div>
+        </article>
+    </section>
+
+
+
+
+    <section class="container"></section>
+    <template>
+        <article id="mad">
+            <h3 class="ret"></h3>
+            <img class="billede" src="" alt="">
+            <p class="kort_beskrivelse"></p>
+            <p class="pris">Pris: </p>
+        </article>
+    </template>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
